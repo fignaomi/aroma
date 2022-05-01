@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #2c7c43;
+  margin-bottom: 1em;
+  font-size: 2.1em;
+}
+
+
+.bold{
+  font-weight: bold;
+  color: #2c7c43;
+}
+
+.imagemHome{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.imagemHome img{
+  width: 600px;
+  margin-right: 0.9em;
+  margin-bottom: 0.5em;
+ 
+}
+
+.titulo{
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.conteudo {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #517e1a;
+  text-align: center;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+
+}
+
