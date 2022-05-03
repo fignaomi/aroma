@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aroma/static/css/main.0d525aaa.css",
+    "main.js": "/aroma/static/js/main.2717b70a.js",
+    "static/media/imagem-home.jpg": "/aroma/static/media/imagem-home.8020c8de89d2b3d17d7b.jpg",
+    "static/media/folha.png": "/aroma/static/media/folha.1077255421aeb852342c.png",
+    "index.html": "/aroma/index.html",
+    "main.0d525aaa.css.map": "/aroma/static/css/main.0d525aaa.css.map",
+    "main.2717b70a.js.map": "/aroma/static/js/main.2717b70a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d525aaa.css",
+    "static/js/main.2717b70a.js"
+  ]
+}
