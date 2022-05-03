@@ -12,10 +12,10 @@ import Detalhes from './components/pages/oleo-detalhes'
 import DetalhesAjuda from './components/pages/Ajuda-detalhes'
 
 //Componetes
-import Navebar from './components/NavBar/index';
+// import Navebar from './components/NavBar/index';
 import Footer from './components/Footer/index';
 import Container from './components/Container/index';
-
+import Navebar from './components/NavBar/Navbar';
 function App() {
   return (
     <BrowserRouter>

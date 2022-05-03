@@ -21,9 +21,9 @@ export default function AjudaDetails() {
 
 
     return (
-        detalhes.length > 0 ?
+       
             detalhes.map((elem, index) =>
-
+            elem.titulo != null ?
                 <section className={styles.ajuda_details_container}>
 
                     <div className={styles.ajudadetails_header}>
@@ -33,11 +33,11 @@ export default function AjudaDetails() {
                     </div>
                 </section>
 
-
+                :
+                <section className={styles.ajuda_details_container}>
+                    <h1 className={styles.titulo}> Dados não cadastrados.</h1>
+                </section>
             )
-            :
-            <section className={styles.ajuda_details_container}>
-                <h1 className={styles.titulo}> Dados não cadastrados.</h1>
-            </section>
+          
     )
 }
